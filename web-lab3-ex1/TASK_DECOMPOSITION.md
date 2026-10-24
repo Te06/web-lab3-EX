@@ -1,18 +1,11 @@
-# Lab 3 - Task Decomposition
+# Lab 3 - Exercise 1: Pro-Gamer Profile Card (Task Decomposition)
 
-## Block 1: Setup & AI Rules
-- [x] Init React 19 Vite project (web-lab3-ex1)
-- [x] Write project-rules.md and TASK_DECOMPOSITION.md
+## Block 1: Semantic Logic & Structure (Commit 1)
+- [x] Define `DeveloperCard` and `SkillBadge` props with TypeScript.
+- [x] Implement `<SkillBadge />` as a reusable component.
+- [x] Implement `<DeveloperCard />` using `<article>`, `<header>`, `<hgroup>`, `<dl>` (Zero div-soup).
+- [x] Ensure avatar uses HTTPS and explicit width/height (Zero CLS).
 
-## Block 2: Exercise 1
-- [ ] Task 1: Semantic DeveloperCard (Zero div-soup)
-- [ ] Task 2: Responsive 375px CSS module
-
-## Block 3: Exercise 2
-- [ ] Task 1: Normalize schema with stable IDs
-- [ ] Task 2: Add search, IQ filter & toSorted
-- [ ] Task 3: Add delete/reset & live status
-
-## Block 4: Exercise 3
-- [ ] Task 1: 4-state telemetry & AbortController
-- [ ] Task 2: Skeleton UI & retry alert
+## Block 2: Styling & Responsive Contract (Commit 2)
+- [x] Create `DeveloperCard.module.css` scoped styles.
+- [x] Implement CSS media query for 375px (Zero horizontal scroll).
