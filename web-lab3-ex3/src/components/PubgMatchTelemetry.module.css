@@ -1,0 +1,47 @@
+/* Khung xương cho trạng thái đang tải (Skeleton) */
+.skeleton {
+  width: 100%;
+  height: 220px; /* Đúng kích thước 220px thầy yêu cầu */
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  /* Hiệu ứng nhấp nháy cho giống đang load dữ liệu */
+  animation: pulse 1.5s infinite ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Khung chứa thông báo lỗi */
+.errorBox {
+  border: 2px solid #cc0000;
+  background-color: #ffe6e6;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #cc0000;
+}
+
+.errorBox button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Khung hiển thị thông tin đội khi tải thành công */
+.successCard {
+  border: 2px solid #006600;
+  background-color: #e6ffe6;
+  padding: 1rem;
+  border-radius: 8px;
+}
